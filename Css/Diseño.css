@@ -1,0 +1,100 @@
+.table {
+    border: 2px black solid;
+    color: white;
+    background-color: grey;
+}
+
+.IMG_ACT {
+    margin: 1px;
+    padding: 1px;
+    border: 2px black solid;
+    width: 200px;
+    height: 200px;
+}
+
+.imgniño {
+
+    height: 600px;
+}
+
+.carruselimagen {
+
+    width: 800px;
+    height: 800px;
+}
+
+.fondonegro {
+    background-color: black;
+}
+
+
+body {
+    background-image: url(https://www.xtrafondos.com/wallpapers/camion-abandonado-y-atardecer-arte-digital-7552.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    }
+
+
+
+
+#galeria img {
+    width: 100%;
+    height: 250;
+
+}
+
+#galeria .col-lg-4 {
+    padding: 25px;
+
+    margin: 0 !important;
+}
+
+.margentop {
+
+    margin-top: 5%;
+}
+
+.colorcard {
+    color: darkslategray;
+}
+
+tamañobox {
+
+    box-sizing: border-box;
+}
+
+.altoimgangel {
+    width: 790px;
+}
+
+.colorangel {
+    background-color: black;
+}
+
+.obrasp {
+    color: white;
+}
+
+.diseñoobra {
+    width: 400px;
+}
+
+.tituloindex{
+    text-align: center;
+
+}
+
+.diseñotitulo{
+    width: 700px;
+}
+
+.diseñocard{
+    background-color: rgb(77, 77, 79);
+
+}
+
+.colorletratit{
+    color: rgb(244, 243, 243);
+}
