@@ -1,0 +1,49 @@
+{
+    
+     "categorias":
+     [
+         {
+             "categoria_id":1,
+             "nombre_categoria":"Pinturas"
+         },
+         {
+            "categoria_id":2,
+            "nombre_categoria":"Esculturas"
+        },
+        {
+            "categoria_id":3,
+            "nombre_categoria":"Orfebrería"
+        }
+     ],
+    "Productos":
+    [
+        {
+            "id_producto":1,
+            "nombre_producto":"Vangogh",
+            "descripcion":"Hola Soy Vangogh",
+            "precio":"2990",
+            "imagen":"/imagenes/vangogh.webp",
+            "nombre_categoria":"Pinturas"
+            
+        },
+        {
+            "id_producto":2,
+            "nombre_producto":"Angel",
+            "descripcion":"Hola Soy Angel",
+            "precio":"3990",
+            "imagen":"/imagenes/angel.jpg",
+            "nombre_categoria":"Escultura"
+            
+        },
+        {
+            "id_producto":3,
+            "nombre_producto":"Panteon",
+            "descripcion":"Hola Soy Panteon",
+            "precio":"4990",
+            "imagen":"/imagenes/Panteon.jpg",
+            "nombre_categoria":"Orfebrería"
+            
+        }
+       
+    ]
+}
