@@ -77,19 +77,19 @@
     crossorigin="anonymous"></script>
 
     <script>
-      $.get('http://127.0.0.1:5501/galeria_json.json',
+      $.get('http://127.0.0.7:5500/Paginas/Paginas_jquery/galeria_json.json',
       function(resultado){
         let contenido=''
         for (let i = 0; i <resultado.Productos.length;i++){
           contenido +=
-          `<div class="col-md-3">
-                <div class="card">
-                  <img src="../imagenes/angel.jpg" class="card-img-top galeriaimg" alt="..." style="width:253px; height:200px;">
+          `<div class="col-md-3 mt-3">
+                <div class="card ">
+                  <img src=${resultado.Productos[i].imagen} alt="..." style="width:253px; height:200px;">
                     <div class="card-body">
-                    <h5 class="card-title">Angel </h5>
-                    <p class="card-text">Auto: Miguel Ángel.</p>
-                    <p class="card-text">Descripcion: En el año 1496 fue realizada en mármol a tamaño natural.</p>
-                  <a href="../Paginas/Angel.html" class="btn btn-primary">VER PRODUCTO</a>
+                    <h5 class="card-title">${resultado.Productos[i].nombre_producto}</h5>
+                    <p class="card-text">${resultado.Productos[i].autor}</p>
+                    <p class="card-text">${resultado.Productos[i].descripcion}</p>
+                  <a href=${resultado.Productos[i].pagina} class="btn btn-primary">VER PRODUCTO</a>
                 </div>
               </div>
             </div>
