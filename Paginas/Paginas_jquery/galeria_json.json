@@ -26,7 +26,7 @@
             "descripcion":"Descripcion: Es una obra en bastidor de tela que esta realizada por el artista Totoy Zamudio con acuarela, acrílico y óleo.",
             "precio":"2990",
             "imagen":"http://127.0.0.7:5500/imagenes/vangogh.webp",
-            "pagina":"http://127.0.0.7:5500/Paginas/totoy.html",
+            "pagina":"http://127.0.0.7:5500/Paginas/vangogh.html",
             "nombre_categoria":"Pinturas"
             
         },
